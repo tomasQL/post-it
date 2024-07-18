@@ -1,0 +1,56 @@
+/* Fuentes Títulos y contenidos */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+PE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+/* Estilos para los post-its */
+.postit {
+    background-color: #fffa8b;
+    border: 1px solid #d1b000;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Sombra para dar efecto de elevación */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Espaciado entre post-its */
+    position: relative;
+}
+
+.postit h3 {
+    margin-top: 0;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postit p {
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    color: #555;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.postit button {
+    background-color: transparent;
+    /* Fondo transparente */
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    /* Cursor de mano */
+    color: #d9534f;
+    /* Color rojo */
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.postit button:hover {
+    color: white;
+    /* Color rojo más oscuro al pasar el ratón */
+}
